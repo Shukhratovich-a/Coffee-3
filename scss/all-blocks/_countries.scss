@@ -1,0 +1,54 @@
+.countries .container{
+    margin-bottom: 179px;
+}
+
+.countries__heading {
+    margin-bottom: 72px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+}
+
+.countries__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.country {
+    margin: 0;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 45px;
+        background-image: url("../../images/svg/Countries/United-Kingdom.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right 0 center;
+    }
+
+    &:nth-child(2)::before {
+        background-image: url("../../images/svg/Countries/Canada.svg");
+    }
+
+    &:nth-child(3)::before {
+        background-image: url("../../images/svg/Countries/Australia.svg");
+    }
+}
+
+.country__name {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.country__item{
+    margin: 0;
+
+    a{
+        text-decoration: none;
+        color: #333D4B;
+    }
+}
