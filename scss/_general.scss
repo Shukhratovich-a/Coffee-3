@@ -97,4 +97,15 @@ p{
             background-image: url('../images/jpg/2x/commitment@2x.jpg');;
         }
     }
+
+    .quality .container{
+        position: relative;
+        margin-bottom: 170px;
+        padding-top: 88px;
+    
+    
+        &::after{
+            background-image: url(../images/jpg/2x/quality@2x.jpg);
+        }
+    }
 }
