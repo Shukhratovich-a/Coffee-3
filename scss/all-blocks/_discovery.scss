@@ -46,17 +46,17 @@
         height: 72px;
         margin: 0 auto;
         margin-bottom: 56px;
-        background-image: url(../../images/svg/discovery-1.svg);
+        background-image: url('../images/svg/discovery-1.svg');
         background-repeat: no-repeat;
         background-position: center;
     }
 
     &:nth-child(2)::before {
-        background-image: url(../../images/svg/discovery-2.svg);
+        background-image: url('../images/svg/discovery-2.svg');
     }
 
     &:nth-child(3)::before {
-        background-image: url(../../images/svg/discovery-3.svg);
+        background-image: url('../images/svg/discovery-3.svg');
     }
 
     &__title {
