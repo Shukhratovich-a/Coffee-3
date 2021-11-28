@@ -104,7 +104,11 @@ p {
         padding-top: 88px;
 
         &::after {
-            background-image: url(../images/jpg/2x/quality@2x.jpg);
+            background-image: url('../images/jpg/2x/quality@2x.jpg');
         }
+    }
+
+    .create-hero__inner{
+        background-image: url('../images/jpg/2x/create-hero-image@2x.jpg');
     }
 }

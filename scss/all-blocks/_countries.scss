@@ -23,18 +23,18 @@
         width: 50px;
         height: 50px;
         margin-bottom: 45px;
-        background-image: url("../../images/svg/Countries/United-Kingdom.svg");
+        background-image: url("../images/svg/Countries/United-Kingdom.svg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right 0 center;
     }
 
     &:nth-child(2)::before {
-        background-image: url("../../images/svg/Countries/Canada.svg");
+        background-image: url("../images/svg/Countries/Canada.svg");
     }
 
     &:nth-child(3)::before {
-        background-image: url("../../images/svg/Countries/Australia.svg");
+        background-image: url("../images/svg/Countries/Australia.svg");
     }
 }
 
