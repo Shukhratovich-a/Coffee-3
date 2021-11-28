@@ -1,0 +1,25 @@
+.hero .container{
+    margin-bottom: 220px;
+}
+
+.hero__inner{
+    padding: 117px 85px;
+    background-image: url(../images/jpg/hero-picture.jpg);
+    background-position: left 0 bottom -170px;
+    border-radius: 10px;
+}
+
+.hero__heading {
+    width: 495px;
+    margin-bottom: 36px;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+}
+
+.hero__text {
+    width: 445px;
+    margin-bottom: 56px;
+    color: #fefcf7;
+    opacity: 0.8;
+}
