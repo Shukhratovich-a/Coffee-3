@@ -48,6 +48,7 @@ body {
 
 img {
     display: block;
+    object-fit: cover;
 }
 
 ul,
@@ -91,4 +92,9 @@ p{
         background-image: url('../images/jpg/2x/about-bg-image@2x.jpg');
     }
 
+    .commitment .container{
+        &::before{
+            background-image: url('../images/jpg/2x/commitment@2x.jpg');;
+        }
+    }
 }
