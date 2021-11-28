@@ -1,5 +1,6 @@
 .nav__list {
     display: flex;
+    align-items: center;
 }
 
 .nav__item {
@@ -24,5 +25,20 @@
 
     &--active {
         color: #333d4b;
+    }
+}
+
+.footer .nav{
+    margin-right: auto;
+}
+
+// FOOTER NAV
+.footer .nav__link{
+    &:hover {
+        color: #FEFCF7;
+    }
+
+    &--active {
+        color: #FEFCF7;
     }
 }
