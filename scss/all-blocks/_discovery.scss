@@ -1,0 +1,71 @@
+.discovery .container {
+    position: relative;
+    padding-bottom: 150px;
+    margin-bottom: 200px;
+}
+
+.discover__inner {
+    padding-top: 100px;
+    padding-bottom: 317px;
+    text-align: center;
+    color: #fefcf7;
+    background-color: #2c343e;
+    border-radius: 10px;
+}
+
+.discovery__heading {
+    margin-bottom: 32px;
+}
+
+.discovery__text {
+    width: 540px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.discovery__list {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0;
+    display: flex;
+    column-gap: 30px;
+}
+
+.discovery__item {
+    width: 350px;
+    padding: 48px;
+    padding-top: 72px;
+    background: #0e8784;
+    border-radius: 8px;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin: 0 auto;
+        margin-bottom: 56px;
+        background-image: url(../../images/svg/discovery-1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &:nth-child(2)::before {
+        background-image: url(../../images/svg/discovery-2.svg);
+    }
+
+    &:nth-child(3)::before {
+        background-image: url(../../images/svg/discovery-3.svg);
+    }
+
+    &__title {
+        margin-bottom: 24px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}
