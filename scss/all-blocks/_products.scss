@@ -6,8 +6,6 @@
 
 .products__heading {
     position: relative;
-    right: 50%;
-    transform: translateX(50%);
     margin: 0;
     font-size: 150px;
     line-height: 72px;
@@ -16,14 +14,14 @@
     text-transform: lowercase;
     color: #83888f;
 
-    &::after {
+    &::after{
         content: "";
         position: absolute;
         bottom: -38px;
         display: block;
-        width: 100vw;
+        width: zzz;
         height: 200px;
-        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #fefcf7 100%);
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
     }
 }
 
