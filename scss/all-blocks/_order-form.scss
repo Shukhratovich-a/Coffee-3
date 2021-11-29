@@ -16,7 +16,7 @@
         content: "";
         width: 18px;
         height: 12px;
-        background-image: url(../../images/svg/vektor.svg);
+        background-image: url('../images/svg/vector-up.svg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -92,4 +92,14 @@
 
 .order__button {
     margin-left: auto;
+}
+
+.order__options__closed{
+    &+.order__options{
+        display: none;
+    }
+
+    &::after{
+        background-image: url('../images/svg/vector-down.svg');
+    }
 }
