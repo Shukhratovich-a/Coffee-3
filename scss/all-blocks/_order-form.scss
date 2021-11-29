@@ -1,0 +1,68 @@
+.order_form {
+    width: 730px;
+}
+
+.order__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888f;
+    cursor: pointer;
+
+    &::after{
+        content: "";
+        width: 18px;
+        height: 12px;
+        background-image: url(../../images/svg/vektor.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+.order__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 88px;
+}
+
+.order__controller {
+    display: block;
+    width: 228px;
+    padding: 32px 28px;
+    padding-bottom: 84px;
+    background-color: #f4f1eb;
+    border-radius: 8px;
+    transition: background-color 0.25s ease, color 0.25s ease;
+
+    &:hover {
+        background-color: #fdd6ba;
+    }
+}
+
+.order__option__name {
+    display: block;
+    margin-bottom: 24px;
+    font-family: "Fraunces", "Times new roman", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    white-space: nowrap;
+}
+
+.order__option__text {
+    display: block;
+}
+
+.order__radio:checked + .order__controller {
+    background-color: #0e8784;
+    color: #FEFCF7;;
+}
+
+.order__button{
+    margin-left: auto;
+}
